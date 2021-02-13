@@ -7,7 +7,7 @@ interface Profile {
   name: string;
   age: number;
   coords: ProfileCoords;
-  setAge: (age: number) => void;
+  setAge(age: number): void;
 }
 
 const profile: Profile = {
